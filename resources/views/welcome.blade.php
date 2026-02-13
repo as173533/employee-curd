@@ -7,7 +7,9 @@
 </head>
 <body>
 
-<livewire:employee-crud />
+
+<a href="{{ route('login') }}" class="btn btn-primary">Login</a>
+
 
 @livewireScripts
 </body>
